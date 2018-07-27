@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>V-Rehab | Meng's Portfolio</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/bootstrap.css">
+<link rel="icon" href="img/logo.jpg">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-113464151-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-113464151-1');
+</script>
+</head>
+
+<body>
+    <div class="float_nav">
+    <a class="homelogo" href="index.html"><img src="img/navlogo.png" alt="logo">
+    </a>
+    <a class="navlink" href="aboutme.html">ABOUT ME</a>
+    <a class="navlink" href="index.html">PROJECTS</a>
+    
+    </div>
+    <div class="top" id="vrehab"></div>
+	<div class="banner">
+	<img src="img/vrehab/banner.jpg">
+	</div>
+
+	<div class="intro">
+		<div class="col-lg-6 col-xs-12 half">
+		<div class="content">
+		<div class="intro_title">My Role</div>
+		<p>It was the capstone project of my undergraduate program. I cooperated with Yuan Feng, designed and developed the whole game system. I was mainly responsible for the research process, physical product design and the initial idea of the game planning, while Yuan was responsible for coding and development. After my graduation, we cooperated with two fellow students to write essay of this project. And the essay was accepted for HCII2018 Conference. </p>
+		</div>
+		</div>
+		<div class="col-lg-6 col-xs-12 half">
+		<div class="content">
+		<div class="intro_title">Duration</div>	
+		<p>2017. 03 - 2017. 06</p>
+		</div>
+		<div class="content">
+		<div class="intro_title">Methods and Tools</div>
+		<p>User Interview, Competitive Analysis, Game Design, Prototyping, 3D Printing<br>PS, AI, Arduino, Unity, Rhino, Keyshot
+		</p>
+		</div>
+		</div>
+
+    </div>
+    
+    <div class="section">
+    <div class="main_text">
+    	<div class="section_title vrehab">About V-Rehab</div>
+    	<p>This project studies the combination of virtual reality (VR) technology and conventional stroke rehabilitation physiotherapy. Specifically, we propose a novel therapeutic device coupled with an immersive VR software environment to foster hand rehabilitation. <br>
+        We first study the current state of the art in VR technology use in medical rehabilitation. Next, we investigate the conventional stroke rehabilitation process to integrate accepted methods of physical therapy into mobile games. The game system’s input device (V-rehab) is an improvement on existing rehabilitation equipment, designed to maximize interaction between user and game. We feature a prototype game system based on sensor hardware and a custom environment running on the Unity3D software platform. Finally, we show results of system testing and discuss the application of VR in stroke rehabilitation.
+		</p>
+    </div>
+    <div class="image"><img src="img/vrehab/about.jpg" style="width: 70%; box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1)"></div>
+
+    </div>
+
+    <div class="section">
+    	<div class="section_title vrehab">Background</div>
+    	<div class="subtitle main_text"><strong>What is "Stroke"?</strong></div>
+    	<div class="main_text"><p>Stroke is a medical condition in which poor blood flow to the brain results in cell death <sup>[1]</sup>. China has the highest incidence of stroke in the world. In recent years, the number of stroke survivors has increased with the development and progress of medical technology. However, about 75% of patients still suffer from varying degrees of motor dysfunction, especially hand motor dysfunction, with up to 10% of patients living with severe disability. The primary stroke hand dysfunction defects are buckling contracture, weakened grip, side clips, and other functional loss to palm and fingers<sup>[2]</sup>. Hemiplegic hand dyskinesia significantly reduces quality of life and increases the economic and psychological burden of patients as well as their families <sup>[3]</sup>.</p></div>
+        <div class="image"><img src="img/vrehab/stroke.png" style="width: 70%"></div>
+
+        <div class="subtitle main_text"><strong>What is the most common method for rehabilitation?</strong></div>
+        <div class="main_text"><p>Prior research has demonstrated that exercise rehabilitation training can not only promote spontaneous nerve function recovery in patients with hemiplegia and help patients to restore central nervous system control and control of limb movement, but it can also prevent atrophy from muscle disuse and improve the recovery of motor function <sup>[4]</sup>. Physical therapy has become one of the most commonly used methods for rehabilitating motor function in clinical practice. At present, motor-function rehabilitation in patients with hemiplegia is still carried out under the guidance of a therapist, who assists patients with passive or auxiliary exercise training. </p></div>
+
+        <div class="subtitle main_text"><strong>Is there any shortcoming?</strong></div>
+        <div class="main_text"><p>These methods have obvious shortcomings:<br>
+        (1) Waste of manpower and material resources. Rehabilitation therapists cannot simultaneously guide more than a small number of hemiplegia patients in technique, and this costly and specialized field is impractical in a huge developing country like China;<br>
+        (2) Rehabilitation training is mechanically tedious: hemiplegic patients rarely participate enthusiastically, which leads to lapses in treatment;<br>
+        (3) It is very difficult to obtain feedback to gauge the intensity and effectiveness of rehabilitation training <sup>[5]</sup>.</p></div>
+        
+        <div class="subtitle main_text"><strong>So...What do we need?</strong></div>
+        <div class="image"><img src="img/vrehab/goal.jpg" style="width: 70%"></div>
+
+        <div class="subtitle main_text"><strong>What can VR do for rehab?</strong></div>
+        <div class="main_text"><p>Existing research shows that the introduction of virtual reality technology and games into rehabilitation training is helpful for the rehabilitation of patients with motor dysfunction <sup>[6]</sup>. This method can provide a variety of feedback during training and reasonable rehabilitation recommendations according to the patient’s specific condition. A virtual environment can greatly increase patients’ initiative to participate in therapy, so as to effectuate rehabilitation <sup>[7]</sup>. With its three primary characteristics of <strong>interaction</strong>, <strong>imagination</strong>, and <strong>immersion</strong>, VR technology uses a synergistic merger of virtual and real environments to give patients strong sensory stimulation <sup>[8]</sup>, which can greatly improve their enthusiasm for training.</p></div>
+
+    </div>
+
+    <div class="section">
+    	<div class="section_title vrehab">Research</div>
+    	<div class="subtitle main_text"><strong>User Interview </strong></div>
+    	<div class="main_text">
+    		<p>Our research method was primarily based on a user interview.<br>
+            <strong>Interviewees:</strong> Patients with a stroke experience who are recovering or who have recovered.<br>
+            <strong>Interview form:</strong> One-to-one interview<br>
+            <strong>Interview purpose: </strong>To understand the basic physical condition of patients during rehabilitation, rehabilitation methods, and psychological and physical demands during the rehabilitation process.<br>
+            <strong>Main questions:</strong><br>
+            - Medical history (including age, stroke time, affected part, duration of rehabilitation)<br>
+            - Hand rehabilitation training method and auxiliary equipment<br>
+            - The family’s role in healing<br>
+            - State of mind and emotional state since suffering strokes<br>
+            - Lifestyle and exercise before strokes<br>
+            - Views and attitudes towards the combination of virtual reality technology and stroke rehabilitation 
+            <br>
+            <br>
+            The following is an overview of interview records of two stroke patients:
+            </p>
+    	</div>
+    	<div class="image"><img src="img/vrehab/interview.jpg" style="width: 60%"></div>
+		<div style="height: 30px"></div>
+    	<div class="main_text">
+    		<p>In communicating with stroke patients, we learned that patients must remain at home for an extended period during the rehabilitation process, and they usually cannot meet the standard training requirements without the supervision of a doctor. Furthermore, the lack of positive feedback in the process causes patients to suffer some emotional distress. Patients generally regard <strong>feedback and incentives</strong> as important during the rehabilitation process; our contacts reported that they would appreciate <strong>more reward forms</strong> in the game design, so that they can get <strong>a sense of accomplishment</strong> in the game process, as well as to ensure adequate training exercise. Finally, rehabilitation equipment should ensure <strong>safety and comfort</strong>, and it should be able to be <strong>handled by patients independently</strong>.</p>
+    	</div>
+    	<div style="height: 30px"></div>
+    	<div class="subtitle main_text"><strong>Competitive Product Analysis - Hardware</strong></div>
+    	<div class="main_text">
+    		<p>The hardware used by patients for rehabilitation also serves as the operating handset for the game system. In form, this is essentially an improved version of existing mechanical hand rehabilitation equipment. Among the devices that are already available on the market, this article compares their sensitivity to hand motion and aspects of their operation, operationalized as follows:<br>
+            <strong>Operation:</strong> Hand rehabilitation training methods can be divided into active training and passive training. Active training is exercise through patients’ own muscle flexion and extension, while passive training is hand movement assisted by the equipment via motors or mechanical force devices.<br>
+            <strong>Flexibility: </strong>The degrees of freedom of hand movement and the number of joints involved.<br>
+            </p>
+    	</div>
+    	<div class="image"><img src="img/vrehab/ca1.png" style="width: 60%"></div>
+        <div class="main_text">
+            <p>In order to ensure the rationality of the rehabilitation equipment, the choice of equipment refers to the existing hand rehabilitation equipment and is evaluated by the scientific program of hand rehabilitation. To offer the user a greater sense of interactivity and fully autonomous exercises during the rehabilitation process, the device should to have higher initiative and sensitivity and should be able to precisely record data for each finger press. Therefore, we chose a device with four pressure elements that users will need to press with the four fingers.
+            </p>
+        </div>
+        <div class="subtitle main_text"><strong>Competitive Product Analysis - VR Platform</strong></div>
+        <div class="main_text">
+            <p>The selection of a virtual reality gaming platform was based on two considerations, one being <strong>the cost of purchasing head-mounted devices</strong>, and the second being <strong>the compatibility of the device for different phone size and system version</strong>. In order to allow use of these devices on a variety of mobile phones and to make this stroke rehabilitation system affordable, we chose the cheaper, more compatible Google cardboard and Google Daydream as a basic platform; users may choose a higher-cost platform according to economic situation, but we decided on this as a baseline.
+            </p>
+        </div>
+        <div class="image"><img src="img/vrehab/ca2.png" style="width: 60%"></div>
+        <div class="main_text">
+            <p>To operate a VR game, the user opens the virtual reality game application in the smartphone and inserts the phone into a Google Cardboard or Google Daydream visor. The content displayed in front of the user will change via the phone camera and sensing by the phone or visor’s built-in gyroscope as the user moves his or her head.
+    </div>
+
+    <div class="section">
+    	<div class="section_title vrehab">Hardware Design</div>
+    <div class="subtitle main_text"><strong>The Whole System</strong></div>
+    <div class="main_text">
+    		<p>This project used the Unity3D game software development platform with the “Google Cardboard SDK for Unity” plug-in to develop mobile virtual reality games. Our mobile game system structure is shown below</p>
+    </div>
+    <div class="image"><img src="img/vrehab/s1.png" style="width: 60%"></div>
+    <div class="main_text">
+            <p>Specifically, the game system is divided into three parts: users, hand equipment, and mobile VR games. The user’s finger movement is captured and recorded by the pressure sensor in the handgear, and the data is read by the Bluno module and transmitted to the handset program via Bluetooth. After the mobile program receives the input data, the system responds and changes the corresponding scene in the screen and feedbacks to the user. These form the complete interactive process for our system.</p>
+    </div>
+    <div class="image"><img src="img/vrehab/s2.png" style="width: 60%"></div>
+    <div style="height: 30px"></div>
+    <div class="subtitle main_text"><strong>Function Prototype</strong></div>
+    <div class="main_text">
+    		<p>Because pressure is the main action in stroke rehabilitation training, a pressure sensor was deemed as the best choice for input sensing. The pressure sensor we chose was the FSR402 Resistive Film Pressure Sensor, which converts the pressure applied on the FSR sensor film area into a change in resistance to obtain pressure information. The higher the pressure, the lower the resistance, allowing it to be used at 0g-10kg pressure to meet our design needs. It is small enough and light enough to be used in equipment with high experience requirements.<br>
+            Based on the requirements of our project, we needed a device to communicate with the Arduino microcontroller and mobile phone. The Bluno Bluetooth module suited our requirements as the communication unit between our mobile gaming and hardware device.</p>
+    	</div>
+    <div class="image"><img src="img/vrehab/s3.jpg" style="width: 60%"></div>
+    <div class="main_text">
+            <p>We implemented a hardware device consisting of an Arduino microcontroller, a Bluno Bluetooth module, and pressure sensors. Four pressure sensors serve as the proximal interface for the user; they receive the user’s movement information directly. In the game, we defined the meaning of each of the four finger presses, each representing different actions in the user’s view. The function of the pressure sensor is to converts finger pressure into an electrical signal through the resistance effect described above, and to send the data to the microcontroller via pins connected to the Arduino.<br>
+            </p>
+        </div>
+    <div class="image"><img src="img/vrehab/s4.jpg" style="width: 60%"></div>
+    <div class="image"><img src="img/vrehab/s5.png" style="width: 50%"></div>
+    <div style="height: 30px"></div>
+    <div class="subtitle main_text"><strong>Handset Shape Prototype</strong></div>
+    <div class="main_text">
+            <p>Because the handset it is hand-held equipment, we needed to ensure that all electronic components such as hand-pressure devices, sensors, control panels, batteries, switches, and other devices will fit into the product, and that the product can be held by the average-sized hand and comfortably fit the shape of the hand.</p>
+        </div>
+    <div class="image"><img src="img/vrehab/s6.jpg" style="width: 60%"></div>
+    <div class="image"><img src="img/vrehab/s7.jpg" style="width: 60%"></div>
+    <div class="main_text">
+            <p>Depending on the size of the hand and the features of the product, our design was most concerned with the fit of the thumb muscle to the handset, as this contributes most to the degree of comfort the when users hold the product.<br>
+            Stage 1:<br>
+            The initial model  used an ellipsoid as the main form with the original four finger pressing parts of the same length. Our primary goal was to achieve a good fit between the thumb muscles with the handset.
+            </p>
+        </div>
+    <div class="image"><img src="img/vrehab/s8.jpg" style="width: 60%"></div>
+    <div class="main_text">
+            <p>Stage 2:<br>
+            In the second model we made more adjustments in the curve of the arc which took into account the state of the full finger press given differing heights of each of the four fingers. Thus, the length of each button is adjusted according to different height. At the same time, the hand grip has also been changed to a greater curvature, making an overall shape resembling a bear’s paw.
+
+        </div>
+    <div class="image"><img src="img/vrehab/s9.jpg" style="width: 60%"></div>
+    <div class="main_text">
+            <p>Stage 3:<br>
+            After confirming the design of the finger portion and the design of the bottom surface, we made the bottom line clearer on the original model. At the same time, the buttons were enlarged, resulting in a slightly mellower whole shape. Meanwhile, corresponding concavities and convexities were added to the hand-fitting area, so that the handset fits the natural contours of the palm.
+
+        </div>
+    <div class="image"><img src="img/vrehab/s10.jpg" style="width: 60%"></div>
+    <div class="main_text">
+            <p>Stage 4:<br>
+            The previous model had a rather inelegant appearance, so we made a few further adjustments.
+
+        </div>
+    <div class="image"><img src="img/vrehab/s11.jpg" style="width: 60%"></div>
+    <div class="main_text">
+            <p>Final Display<br>
+            The shape of the finger areas was improved to make it more abstract and give up the rounded shape; we also performed better blending on the palm-contact surfaces, making the shape more concise and clear. The final model is shown in following 
+
+        </div>
+    <div class="image"><img src="img/vrehab/s12.png" style="width: 60%"></div>
+
+    </div>
+
+    <div class="section">
+        <div class="section_title vrehab">Game Design</div>
+        <div class="main_text">
+            <p>Stroke rehabilitation patients’ hand movement ability is impaired, so our game design needed to take full account of the patient’s finger movement, in careful combination with the hand acupressure rehabilitation equipment. To do so, it is necessary to fully mobilize the motion of the four fingers during game operation. We devised the game settings in an attempt to achieve optimally effective finger movement according to the sequence and frequency of practical finger rehabilitation exercises. In the game design, we developed two styles of game scenes based on user characteristics of different genders and ages.
+            </p>
+        </div>
+    <div class="subtitle main_text"><strong>Scenario 1</strong></div>
+    <div class="main_text">
+            <p>Scene 1: “Aircraft War” features explosions and realistic effects, incudes awards or penalty.<br>
+            Game scene: Simulation of shooting down enemy planes in an actual first-person shooting confrontation. The player’s perspective is to drive a tank equipped with a machine gun. An enemy set in the game will send out a low-flying fighter to prevent the player from moving forward and will cast bombs at the right place to injure the player. Players must operate the tanks and use the machine guns to shoot as many enemy planes as possible to crash them, one point for each. The game scene is as shown.
+            </p>
+        </div>
+    <div class="image"><img src="img/vrehab/g1.png" style="width: 60%"></div>
+    <div class="image"><img src="img/vrehab/image2.gif" style="width: 60%"></div>
+    <div class="subtitle main_text"><strong>Scenario 2</strong></div>
+    <div class="main_text">
+            <p>Scene 2: “Harvest Forest” is a more leisurely game offering players a more relaxed and pleasant experience.<br>
+            Game scene: Players wander in the forest according to the established route, along the way catching falling fruit from the trees with a basket. The basket must be placed at one of four possible places to catch the fruit, which is controlled by four fingers. Players need to catch as much fruit as possible, each catch earning a gold coin.
+            </p>
+        </div>
+    <div class="image"><img src="img/vrehab/g2.png" style="width: 60%"></div>
+    <div class="subtitle main_text"><strong>App Design</strong></div>
+    <div class="main_text">
+            <p>Aside from the game portion of the application, there are also device connection and data recording modules present in the mobile application. As for the connection module, the mobile application will automatically search for the user’s V-rehab equipment via Bluetooth. After matching the equipment, the user may select a game and then follow instructions to put the mobile into a Google Cardboard or Google Daydream headset. The user may now perform rehabilitation training in the panoramic game.
+            </p>
+        </div>
+    <div class="image"><img src="img/vrehab/g3.png" style="width: 70%"></div>
+
+    <div class="subtitle main_text"><strong>Conceptual Video</strong></div>
+    <div class="video_full">
+    <iframe width="640" height="358" src="https://www.youtube.com/embed/EJkJZiiYEmY"  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
+
+    </div>
+
+    <div class="section">
+        <div class="section_title vrehab">Test and Reflection</div>
+        <div class="main_text">
+            <p>Finally, after developing the prototype of the game system, we invited several volunteers to conduct user tests. We divided the volunteers into two groups: those whose hands exercise functionally and half–hand-impaired people. The user tests aimed to judge whether the game system is suitable for hand-impaired people to use. The test was divided into two parts, testing the handset and testing the gaming experience. Combined with the user’s performance and attitudes, this paper proposes an improvement solution for both components, and this can be further studied in the future.
+            </p>
+        </div>
+    <div class="image"><img src="img/vrehab/t1.jpg" style="width: 60%"></div>
+    <div class="main_text">
+            <p>This project is an attempt to apply virtual reality to stroke rehabilitation training. The rehabilitation target is limited to the hand, specifically the restoration of the gripping and squeezing functions of affected fingers. Stroke rehabilitation requires training of many body functions, especially for the hand in restoring grip, wrist rotation, and other aspects. It can further be improved by exploring the game design for rehabilitation of other body functions of stroke patients. For this experiment, we only developed a simple action game scene with a simple plot. Developers can design more complex scenarios and scenes in order to understand the characteristics of patients with stroke and help them recover. In addition, this study did not establish a complete recovery evaluation mechanism due to time constraints. Thus, comprehensively assessing the recovery effects for patients playing virtual reality games wearing head-mounted equipment is beyond the scope of this paper. Future research can verify the effect of virtual reality technology for rehabilitation of stroke patients with fuller attention to recovery assessment methods. In conclusion, our design is a small attempt to solve the traditional problems with new technologies. With the development of medical technology and virtual reality technology, virtual reality will undoubtedly continue to provide options for medical treatment.
+
+
+            </p>
+        </div>
+
+    </div>
+
+     <div class="section">
+        <div class="section_title vrehab">Reference</div>
+        <div class="main_text">
+            <p>1.   What Is a Stroke? National Heart, Lung, and Blood Institute. 2014-03-26 [2015-02-26].<br>
+            2.  Gabriele W, RENATE S. Work loss following stroke [J]. Disability Rehabilitation, 2009,31(18):1487-1493.<br>
+            3.  Tierney N.W, Crouch J, Garcia H, et al. Virtual reality in gait rehabilitation [J]. Modsim World, 2007. <br>
+            4.  Lin Riwu, Lin Maoen, Pan Shihai, et al. Mandatory exercise therapy in the treatment of stroke hemiplegia clinical application [J]. Cardiovascular and cerebrovascular disease prevention and control, 2007, 7 (2): 97-98.<br>
+            5.  Zhang Dongrui，Geng Yanjuan，Xu Lisheng，Zhang Xiufeng，Li Guanglin. Design and implementation of virtual reality hand rehabilitation training system [J]. Integrated Technology, 2013,2 (4): 33-40.<br>
+            6.  Saposnik G, Mamdani M, Bayley M, et al. Effectiveness of virtual reality exercises in stroke rehabilitation(EVREST): rationale, design, and protocol of a pilot randomized clinical trial assessing the Wii gaming system [J]. Int J Stroke,2010,5(1):47-51.<br>
+            7.  Levanon Y. The advantages and disadvantages of using high technology in hand rehabilitation [J]. J Hand Ther, 2013, 26(2):179-183.<br>
+            8.  Saposnik G, Levin M. Virtual reality in stroke rehabilitation: a meta-analysis and implications for clinicians [J]. Stroke, 2011, 42(5): 1380-1386.
+
+            </p>
+        </div>
+    </div>
+	<footer>
+	    <div class="flip">
+           <div class="flip_button left" id="cdn">
+            <a href="cdn.html">
+        	<img src="img/left.png" alt="leftarrow" class="arrow left">
+        	<div class="title left">ALIBABA CDN</div>
+        	</a>
+           </div>
+
+           <div class="flip_button right" id="iwater">
+            <a href="iwater.html">
+        	<img src="img/right.png" alt="rightarrow" class="arrow right">
+        	<div class="title right">iWater</div>
+        	</a>
+           </div>
+        </div>
+
+	    <div class="footernav">
+            <a class="footerlink" href="index.html">PROJECTS</a>
+            <a class="footerlink" href="aboutme.html">ABOUT ME</a>	
+        </div>
+
+        <div class="sociallinks">
+   
+          <ul>
+            <li><a href="https://www.facebook.com/profile.php?id=100009453627300"><img class="icon" alt="facebook" src="img/facebook.png"></a></li>
+            <li><a href="https://www.instagram.com/michellekim_1111/?hl=zh-cn"><img class="icon" alt="instagram" src="img/instagram.png"></a></li>
+            <li><a href="https://www.linkedin.com/in/mengyuan1111/"><img class="icon" alt="linkedin" src="img/linkedin.png"></a></li>
+            <li><a href="mailto:michelle951111@gmail.com"><img class="icon" alt="email" src="img/email.png"></a></li>
+
+        </div>
+      
+		<div class="footertext">
+			&copy; 2018 Meng Yuan. Design and code in Ann Arbor.
+		</div>
+	</footer>
+
+    <div onclick="topFunction()" id="myBtn" title="Go to top">
+    <img src="img/top.png">
+    </div> 
+
+    <script src="script/javascript.js"></script>
+</body>
